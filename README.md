@@ -12,3 +12,8 @@ Configuring the template requires prior knowledge of HTML/css. Template is ready
 Feel free to message me if you find any issues with the template.
 Leave a comment if you like my template or it helped you in anyway. 
 Contact me if you need any custom made templates or freelance ruby on rails work.
+
+
+
+
+Sai Krishna Gaddipati
