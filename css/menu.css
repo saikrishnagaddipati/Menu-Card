@@ -1,0 +1,55 @@
+
+h2 input{
+	color: #679BB7;
+	text-align: center;
+	font-size: 35px;
+}
+input, textarea{
+	width:100%;
+	border:none;
+}
+.table-full{
+	width: 95%;
+	margin:0 auto;
+}
+.td-middle{
+	width:85%;
+}
+.eye{
+	color: #f47200;
+	width: 5%;
+	text-align: center;
+	cursor: pointer;
+    margin: 25px 0 0 25px;;
+}
+.item-name{
+	border:none;
+	border-bottom: 1px dashed #000000 !important;
+}
+.item-name, .price-list{
+	color: #4CAF87;
+	font-weight: bold;
+}
+.fleft{
+	float:left;
+	width: 25%;
+}
+.fprice{
+	float:left;
+	width: 75%;
+}
+.item-name input{
+	font-weight: bold;
+	border:none;
+}
+
+.price-list{
+	text-align: left;
+	width:10%;
+}
+.description textarea{
+	color: #C1C1C1;
+	font-size: 12px;
+	height:25px;
+	width:100%;
+}
