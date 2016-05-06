@@ -1,26 +1,31 @@
-
+body {
+    font-family:  Clarendon;
+}
+*:focus {
+    outline: none;
+}
 h2 input{
 	color: #679BB7;
 	text-align: center;
-	font-size: 35px;
+	font-size: 30px;
 }
 input, textarea{
 	width:100%;
 	border:none;
 }
 .table-full{
-	width: 95%;
+	width: 85%;
 	margin:0 auto;
+	margin-top:10px;
 }
 .td-middle{
-	width:85%;
+	width:75%;
 }
 .eye{
 	color: #f47200;
 	width: 5%;
 	text-align: center;
 	cursor: pointer;
-    margin: 25px 0 0 25px;;
 }
 .item-name{
 	border:none;
@@ -33,6 +38,8 @@ input, textarea{
 .fleft{
 	float:left;
 	width: 25%;
+    text-align: right;
+    padding-right: 5px; 
 }
 .fprice{
 	float:left;
@@ -45,11 +52,57 @@ input, textarea{
 
 .price-list{
 	text-align: left;
-	width:10%;
+	width:20%;
 }
 .description textarea{
 	color: #C1C1C1;
 	font-size: 12px;
 	height:25px;
 	width:100%;
+}
+.ui-widget-header,.ui-state-default, ui-button{
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+         }
+.circle-icon {
+    background: #9FE680;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+    padding: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+form {
+    display: inline-block;
+}
+
+/* override jquery ui default color scheme */
+.ui-widget-header {
+    background: #3f3f3f !important;
+    border: 1px solid #3f3f3f !important;
+}
+.ui-widget-content{
+    background: #515151 !important;
+    border: 1px solid #515151 !important;
+}
+input[type="submit"]{
+    background: #3f3f3f !important;
+    padding: 10px 20px !important;
+}
+.active{
+    font-weight: bold !important;
+    font-size: 24px !important;
+    background: #000000 !important;
+}
+#screen_2, #screen_3{
+	display: none;
+}
+.alert{
+	display:none;
 }
