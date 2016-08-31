@@ -1,5 +1,5 @@
 # Menu-Card
-Menu card template with CRUD functionality with glyphicon eye.
+Menu card template with CRUD functionality with glyphicon eye.    
 Hi Guys, I have got a chance to work for a UI template design. 
 This template is used as a hotel menu(Can be used as a score card,configurable-workbook etc..), where all the items including the header, body and the footer are editable. 
 Uses a glyphicon eye to hide the items and show the items.
